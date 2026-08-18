@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krishna Rathinavel - Student, Web Developer, and Passionate Learner. Explore my portfolio showcasing web development projects, karate achievements, debate skills, and public speaking.">
+    <meta name="keywords" content="Krishna Rathinavel, Web Developer, Portfolio, Student, HTML, CSS, JavaScript, Karate, Debate, Speech">
+    <meta name="author" content="Krishna Rathinavel">
+    <title>Krishna Portfolio | Student & Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <!----Topbar Navigation---->
+    <header class="topbar">
+        <div class="topbar-container">
+            <div class="logo">
+                <h2>Portfo<span>lio</span></h2>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="topbar-nav" id="topbarNav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> <span>About Me</span></a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+                    <li><a href="#projects"><i class="fas fa-briefcase"></i> <span>Projects</span></a></li>
+                    <li><a href="#gaming"><i class="fas fa-gamepad"></i> <span>Gaming</span></a></li>
+                    <li><a href="#technology"><i class="fas fa-laptop-code"></i> <span>Technology</span></a></li>
+                    <li><a href="debate.html"><i class="fas fa-comments"></i> <span>Debate</span></a></li>
+                    <li><a href="karate.html"><i class="fas fa-fist-raised"></i> <span>Karate</span></a></li>
+                    <li><a href="speech.html"><i class="fas fa-microphone"></i> <span>Speech</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="main-content">
+    <!----intro Section start---->
+
+    <div class="intro">
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Krishna <span>Rathinavel</span></h1>
+            <h3>I'm a Student & Web Developer.</h3>
+            <a href="#about" class="intro-btn">Explore My Work</a>
+        </div>
+    </div>
+
+    <!----About section start---->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="img/krishna.png" alt="Krishna Rathinavel">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Student <span>& Developer</span></h5>
+                <p>I'm Krishna Rathinavel, a dedicated student and emerging web developer passionate about creating beautiful, functional websites. Currently mastering HTML, CSS, and JavaScript, I combine technical skills with creative problem-solving. Beyond coding, I'm actively involved in karate (2nd degree black belt), debate competitions, and public speaking, which have shaped my discipline, critical thinking, and communication skills. I'm always eager to learn, collaborate, and take on new challenges in web development.</p>
+                <button type="button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-----service section start----------->
+    <div class="service" id="gaming">
+        <div class="title">
+            <h2>My Passion</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-gamepad"></i>
+                <h5>Gaming</h5>
+                <div class="pra">
+                    <p>As a child, gaming was essential to my existence. It was integrated into my life through education as well as entertainment.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#gaming">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" id="technology">
+                <i class="fas fa-laptop-code"></i>
+                <h5>Technology</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be as fast as possible.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#technology">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-video"></i>
+                <h5>Content Creator</h5>
+                <div class="pra">
+                    <p>A content creator is responsible for providing information and material across any platform or channel.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#contact">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Skills section start---->
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2>Skills & Technologies</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h4>HTML5</h4>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="85"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h4>CSS3</h4>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h4>JavaScript</h4>
+                    <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="60"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h4>Responsive Design</h4>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <h4>UI/UX Basics</h4>
+                    <span>70%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Projects section start---->
+    <section class="projects" id="projects">
+        <div class="title">
+            <h2>My Projects</h2>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>This responsive portfolio website showcasing my skills, achievements, and interests. Built with HTML, CSS, and JavaScript.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development Projects</h3>
+                <p>Various web development projects and experiments. Continuously learning and building new features.</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile-First Designs</h3>
+                <p>Creating mobile-optimized websites that work seamlessly across all devices and screen sizes.</p>
+                <div class="project-tags">
+                    <span>Responsive</span>
+                    <span>Mobile</span>
+                    <span>UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Activities section start---->
+    <section class="activity" id="debate">
+        <div class="main activity-layout">
+            <img src="img/krishna.png" alt="Krishna debating">
+            <div class="activity-text">
+                <h2>Debate</h2>
+                <p class="tagline">Finding my voice through structured arguments.</p>
+                <div class="activity-lists">
+                    <div>
+                        <h4>Early Progress</h4>
+                        <ul>
+                            <li>Joined school debate club and learned formal debate formats.</li>
+                            <li>Practiced framing arguments with evidence and clear rebuttals.</li>
+                            <li>Regularly reviewed recordings to improve delivery and pace.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li>Reached finals in inter-school junior debate league.</li>
+                            <li>Won “Best Speaker” in two monthly club meets.</li>
+                            <li>Helped mentor new members on research and note-taking.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activity alt" id="karate">
+        <div class="main activity-layout">
+            <div class="activity-text">
+                <h2>Karate</h2>
+                <p class="tagline">Building discipline and strength one kata at a time.</p>
+                <div class="activity-lists">
+                    <div>
+                        <h4>Early Progress</h4>
+                        <ul>
+                            <li>Completed white to yellow belt fundamentals.</li>
+                            <li>Practiced kihon drills for balance, stance, and timing.</li>
+                            <li>Added weekly stretching to improve flexibility.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li>Secured first place in a local kata showcase.</li>
+                            <li>Earned commendation for consistent attendance and focus.</li>
+                            <li>Assisted coach in demonstrating beginner routines.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="img/Krish-img.png" alt="Krishna practicing karate">
+        </div>
+    </section>
+
+    <section class="activity" id="speech">
+        <div class="main activity-layout">
+            <img src="img/krishna.png" alt="Krishna delivering a speech">
+            <div class="activity-text">
+                <h2>Speech</h2>
+                <p class="tagline">Turning ideas into confident presentations.</p>
+                <div class="activity-lists">
+                    <div>
+                        <h4>Early Progress</h4>
+                        <ul>
+                            <li>Drafted and practiced short talks on technology topics.</li>
+                            <li>Focused on posture, pauses, and eye contact.</li>
+                            <li>Recorded rehearsals to refine tone and clarity.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li>Delivered a tech tips session in class with positive feedback.</li>
+                            <li>Selected to open the school assembly with a welcome note.</li>
+                            <li>Built a small slide deck to support storytelling.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------Contact section start--------->
+    <section class="contact-section" id="contact-form">
+        <div class="title">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out for collaborations, questions, or just to say hello!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: krishna@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location: Available for remote work</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!------footer start--------->
+    <footer id="contact">
+        <p>Krishna Rathinavel</p>
+        <p>Student & Web Developer | Passionate about creating amazing web experiences</p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="end">&copy; <span id="copyright-year"></span> By Krishna Rathinavel</p>
+    </footer>
+    </div>
+    
+    <!----Back to Top Button---->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href !== '') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        // Close mobile menu if open
+                        if (window.innerWidth <= 768) {
+                            topbarNav.classList.remove('active');
+                            mobileMenuToggle.classList.remove('active');
+                            menuIcon.classList.remove('fa-times');
+                            menuIcon.classList.add('fa-bars');
+                        }
+                    }
+                }
+            });
+        });
+        
+        // Mobile menu toggle functionality
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const topbarNav = document.getElementById('topbarNav');
+        const menuIcon = mobileMenuToggle.querySelector('i');
+        
+        mobileMenuToggle.addEventListener('click', function() {
+            topbarNav.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+            
+            // Toggle icon between bars and times
+            if (topbarNav.classList.contains('active')) {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-times');
+            } else {
+                menuIcon.classList.remove('fa-times');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideNav = topbarNav.contains(event.target);
+            const isClickOnToggle = mobileMenuToggle.contains(event.target);
+            
+            if (!isClickInsideNav && !isClickOnToggle && topbarNav.classList.contains('active')) {
+                topbarNav.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+                menuIcon.classList.remove('fa-times');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+        
+        // Close mobile menu on window resize if it becomes desktop view
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                topbarNav.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+                menuIcon.classList.remove('fa-times');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+        
+        // Back to top button
+        const backToTopBtn = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Animate skill bars on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progressBars = entry.target.querySelectorAll('.skill-progress');
+                    progressBars.forEach(bar => {
+                        const width = bar.getAttribute('data-width');
+                        bar.style.width = width + '%';
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        const skillsSection = document.querySelector('.skills');
+        if (skillsSection) {
+            observer.observe(skillsSection);
+        }
+        
+        // Contact form handling
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+    </script>
+</body>
+
+</html>
